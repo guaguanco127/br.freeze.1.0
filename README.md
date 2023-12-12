@@ -15,15 +15,17 @@ These files were created with Max/MSP version 8.5.6.
 ## Links
 
 [About](#About) 
-[Ableton Max for Live Device](https://github.com/guaguanco127/br.utility.stereo.1.0/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite   
-[Max/MSP Abstraction](https://github.com/guaguanco127/br.utility.stereo.1.0/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP   
+[Ableton Max for Live Device](https://github.com/guaguanco127/br.freeze.1.0/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite   
+[Max/MSP Abstraction](https://github.com/guaguanco127/br.freeze.1.0/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP   
 
 
 ## <a name="About"></a>About
 
-This is a spectral Max/MSP object, and Ableton Max for Live device that allows the user to do a spectral freeze of a stereo signal. Additionally, a transient detector option is available. 
+This is a spectral Max/MSP abstraction, and Ableton Max for Live device that allows the user to do a spectral freeze of a stereo signal. Additionally, a transient detector option is available. 
 
 Currently works in any sample rate or bit depth.
+
+Only works as an abstraction or a device. External objects and RNBO not available yet. An extremely important file is included in each folder called "solofreeze.pfft" do not move or delete this file until you follow all instructions for installation. 
   
 **Freeze:** On/Off, Bypass or Freeze.  
 **Retrigger:** When the freeze is on, this will freeze the current stereo signal.  
