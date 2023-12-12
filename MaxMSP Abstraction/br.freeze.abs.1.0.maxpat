@@ -171,7 +171,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -467.0, -1096.0, 1624.0, 966.0 ],
+						"rect" : [ -467.0, -1096.0, 1268.0, 966.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -708,7 +708,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Freeze, (int) 0 = bypass, 1 = freeze",
 									"id" : "obj-26",
 									"index" : 3,
 									"maxclass" : "inlet",
@@ -747,7 +747,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Retrigger, Bang in",
 									"id" : "obj-29",
 									"index" : 4,
 									"maxclass" : "inlet",
@@ -1342,7 +1342,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "solofreeze.pfft",
-				"bootpath" : "~/Documents/GitHub/TO DO PLUGINS/br-freeze.1.0/MaxMSP Abstraction",
+				"bootpath" : "~/Documents/GitHub/br.freeze.1.0/MaxMSP Abstraction",
 				"patcherrelativepath" : ".",
 				"type" : "maxb",
 				"implicit" : 1
