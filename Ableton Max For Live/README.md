@@ -28,7 +28,7 @@ Only works as an abstraction or a device. External objects and RNBO not availabl
 **Retrigger:** When the freeze is on, this will freeze the current stereo signal.  
 **Mix Modes:** "Insert" interrupts the signal with the freeze, while "Gate" only allows the freeze to sound without passing through the dry signal during bypass.    
 **Transient Detect:** When both "Freeze" and "Transient Detect" are on, the freeze will occur automatically based on the transient detection sensitivity settings. Detections cannot occur faster than 100 ms.   
-**Transient Detect Sensitivity:** When both "Freeze" and "Transient Detect" are on, this will determine how sensitive the transient detection is. Between 0. and 1., 0. is lowest sensitivity, while 1. is the most sensitive. 
+**Transient Detect Sensitivity:** When both "Freeze" and "Transient Detect" are on, this will determine how sensitive the transient detection is. Between 0. and 1., 0. is the lowest sensitivity, while 1. is the most sensitive. 
 
 
 ## <a name="M4L"></a>What Is a Max For Live Device?
