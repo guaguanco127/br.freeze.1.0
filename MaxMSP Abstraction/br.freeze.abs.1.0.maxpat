@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 57.0, -788.0, 1046.0, 649.0 ],
+		"rect" : [ 221.0, 133.0, 503.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,8 +46,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 197.0, 26.0, 58.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 107.0, 58.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 59.0, 58.0, 20.0 ],
 					"text" : "Retrigger",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1176,16 +1177,26 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"appearance" : 3,
 					"id" : "obj-17",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 425.0, 174.0, 65.0, 48.0 ],
+					"patching_rect" : [ 425.0, 174.0, 50.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.5, 80.0, 65.0, 48.0 ],
+					"presentation_rect" : [ 63.0, 67.0, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
@@ -1198,6 +1209,7 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "live.dial"
 				}
 
@@ -1278,8 +1290,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 197.0, 164.0, 57.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 67.0, 36.0, 34.0 ],
+					"presentation_rect" : [ 15.0, 90.0, 36.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_numbox_triangle"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.button",
@@ -1439,6 +1455,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 430.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-2",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 179.333333373069763, 336.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -0.5, 0.0, 282.87837815284729, 169.0 ],
+					"proportion" : 0.39,
+					"rounded" : 0
 				}
 
 			}
